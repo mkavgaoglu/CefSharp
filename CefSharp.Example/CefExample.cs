@@ -64,14 +64,14 @@ namespace CefSharp.Example
             //NOTE: The following function will set all three params
             //settings.SetOffScreenRenderingBestPerformanceArgs();
             //settings.CefCommandLineArgs.Add("disable-gpu", "1");
-            //settings.CefCommandLineArgs.Add("disable-gpu-compositing", "1");
+            settings.CefCommandLineArgs.Add("disable-gpu-compositing", "1");
             //settings.CefCommandLineArgs.Add("enable-begin-frame-scheduling", "1");
 
             //settings.CefCommandLineArgs.Add("disable-gpu-vsync", "1"); //Disable Vsync
 
             //Disables the DirectWrite font rendering system on windows.
             //Possibly useful when experiencing blury fonts.
-            //settings.CefCommandLineArgs.Add("disable-direct-write", "1");
+            settings.CefCommandLineArgs.Add("disable-direct-write", "1");
 
             settings.MultiThreadedMessageLoop = multiThreadedMessageLoop;
 

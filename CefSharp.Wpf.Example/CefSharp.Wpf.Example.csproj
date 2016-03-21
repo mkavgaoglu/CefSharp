@@ -165,8 +165,9 @@
       <Name>CefSharp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Assets\Images\" />
+    <Resource Include="Assets\Images\chromium-256.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\CefSharp.props" />
